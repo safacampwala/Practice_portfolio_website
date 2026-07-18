@@ -370,3 +370,20 @@ RIGHT SERVICES
     font-size:24px;
 
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    gap: 2px;
+    height: 299px;
+    width: 320px;
+    margin: 38px;
+    background-color: #393947;
+    text-align: center;
+    padding: 44px;
+}
