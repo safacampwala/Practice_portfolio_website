@@ -409,3 +409,407 @@ RIGHT SERVICES
     text-align: center;
     padding: 44px;
 }
+
+/* ==========================================
+   Large Tablets & Small Laptops
+========================================== */
+
+@media (max-width:1200px){
+
+header{
+    padding:20px 50px;
+}
+
+.hero{
+    padding:50px;
+}
+
+.left h1{
+    font-size:60px;
+    line-height:70px;
+}
+
+.left h3{
+    font-size:45px;
+}
+
+.circle{
+    width:400px;
+    height:400px;
+}
+
+.middle img{
+    width:360px;
+}
+
+.brands{
+    width:90%;
+    margin:50px auto;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.services{
+    width:90%;
+}
+
+.cards{
+    flex-wrap:wrap;
+}
+
+.card{
+    width:300px;
+}
+}
+
+
+/* ==========================================
+   Tablets
+========================================== */
+
+@media (max-width:992px){
+
+header{
+    padding:20px 30px;
+}
+
+nav{
+    gap:20px;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    gap:50px;
+}
+
+.left,
+.middle,
+.right{
+    width:100%;
+}
+
+.line{
+    margin:25px auto;
+}
+
+.social{
+    justify-content:center;
+}
+
+.circle{
+    width:340px;
+    height:340px;
+}
+
+.middle img{
+    width:300px;
+}
+
+.brands{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.brand{
+    width:100%;
+}
+
+.services{
+    flex-direction:column;
+    gap:50px;
+}
+
+.services-left,
+.services-right{
+    width:100%;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.card{
+    width:100%;
+    margin:0;
+}
+}
+
+
+/* ==========================================
+   Mobile Devices
+========================================== */
+
+@media (max-width:768px){
+
+header{
+    padding:20px;
+}
+
+nav{
+    display:none;
+}
+
+.logo{
+    font-size:22px;
+}
+
+.hero{
+    padding:30px 20px;
+    gap:35px;
+}
+
+.left{
+    text-align:left;
+}
+
+.left h3{
+    font-size:34px;
+}
+
+.left h1{
+    font-size:45px;
+    line-height:55px;
+}
+
+.left p{
+    font-size:15px;
+    line-height:26px;
+}
+
+.right{
+    text-align:left;
+}
+
+.right h2{
+    font-size:28px;
+    line-height:38px;
+}
+
+.social{
+    justify-content:flex-start;
+}
+
+.circle{
+    width:280px;
+    height:280px;
+}
+
+.middle img{
+    width:250px;
+}
+
+.brands{
+    grid-template-columns:1fr;
+    width:100%;
+    padding:0 20px;
+}
+
+.brand{
+    height:70px;
+}
+
+.logoImgGoogle{
+    height:85px;
+    margin:-20px;
+}
+
+.services{
+    padding:0 20px;
+}
+
+.services-left h2{
+    font-size:36px;
+    line-height:45px;
+}
+
+.numbers{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.service{
+    gap:15px;
+}
+
+.service img{
+    width:90px;
+    height:70px;
+}
+
+.service h3{
+    font-size:22px;
+}
+
+.service p{
+    font-size:14px;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+.card{
+    padding:30px;
+}
+}
+
+
+/* ==========================================
+   Small Phones (iPhone 14, iPhone 13, etc.)
+========================================== */
+
+@media (max-width:430px){
+
+body{
+    overflow-x:hidden;
+}
+
+header{
+    padding:18px;
+}
+
+.logo{
+    font-size:20px;
+}
+
+.nav-icons{
+    gap:15px;
+}
+
+.hero{
+    padding:25px 18px;
+}
+
+.left h3{
+    font-size:30px;
+}
+
+.left h1{
+    font-size:40px;
+    line-height:48px;
+}
+
+.line{
+    width:90px;
+    margin:18px 0;
+}
+
+.circle{
+    width:240px;
+    height:240px;
+}
+
+.middle img{
+    width:220px;
+}
+
+.right span{
+    font-size:13px;
+}
+
+.right h2{
+    font-size:24px;
+    line-height:34px;
+}
+
+.social i{
+    width:38px;
+    height:38px;
+}
+
+.brand{
+    height:65px;
+}
+
+.logoImgMeta,
+.logoImgLinkedn,
+.logoImgSlack{
+    width:35px;
+    height:35px;
+}
+
+.logoImgGoogle{
+    height:70px;
+}
+
+.services-left h2{
+    font-size:30px;
+}
+
+.services-left p{
+    font-size:14px;
+}
+
+.numbers h3{
+    font-size:26px;
+}
+
+.service{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.service img{
+    width:100%;
+    height:170px;
+}
+
+.service div{
+    margin-left:0;
+    margin-top:10px;
+}
+
+.service i{
+    margin-top:10px;
+}
+
+.card{
+    padding:25px 20px;
+}
+}
+
+
+/* ==========================================
+   Very Small Phones
+========================================== */
+
+@media (max-width:320px){
+
+.left h1{
+    font-size:34px;
+}
+
+.left h3{
+    font-size:26px;
+}
+
+.circle{
+    width:200px;
+    height:200px;
+}
+
+.middle img{
+    width:180px;
+}
+
+.services-left h2{
+    font-size:26px;
+}
+
+.numbers{
+    grid-template-columns:1fr;
+}
+
+.brand{
+    font-size:20px;
+}
+
+.card{
+    padding:20px 15px;
+}
+
+}
+I also recommen
