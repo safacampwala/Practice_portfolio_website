@@ -2,122 +2,122 @@
 Google Font
 ==========================*/
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    text-decoration:none;
-    list-style:none;
-    font-family:'Poppins',sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background:#2d2d39;
-    color:#fff;
+body {
+    background: #2d2d39;
+    color: #fff;
 }
 
 /*==========================
 HEADER
 ==========================*/
 
-header{
-    width:100%;
-    padding:25px 80px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+header {
+    width: 100%;
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo{
-    font-size:24px;
-    font-weight:600;
+.logo {
+    font-size: 24px;
+    font-weight: 600;
 }
 
-.logo i{
-    color:#f3b61f;
-    margin-right:8px;
-    font-size:13px;
+.logo i {
+    color: #f3b61f;
+    margin-right: 8px;
+    font-size: 13px;
 }
 
-nav{
-    display:flex;
-    gap:40px;
+nav {
+    display: flex;
+    gap: 40px;
 }
 
-nav a{
-    color:#9d9da7;
-    font-size:15px;
-    transition:.3s;
+nav a {
+    color: #9d9da7;
+    font-size: 15px;
+    transition: .3s;
 }
 
 nav a.active,
-nav a:hover{
-    color:white;
+nav a:hover {
+    color: white;
 }
 
-.nav-icons{
-    display:flex;
-    gap:25px;
+.nav-icons {
+    display: flex;
+    gap: 25px;
 }
 
-.nav-icons i{
-    color:white;
-    cursor:pointer;
-    transition:.3s;
+.nav-icons i {
+    color: white;
+    cursor: pointer;
+    transition: .3s;
 }
 
-.nav-icons i:hover{
-    color:#f3b61f;
+.nav-icons i:hover {
+    color: #f3b61f;
 }
 
 /*==========================
 HERO
 ==========================*/
 
-.hero{
+.hero {
 
-    width:100%;
-    padding:60px 80px;
+    width: 100%;
+    padding: 60px 80px;
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-}
-
-.left{
-    width:28%;
-}
-
-.left h3{
-
-    color:#bdbdc7;
-    font-size:55px;
-    font-weight:300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.left h1{
+.left {
+    width: 28%;
+}
 
-    font-size:70px;
-    line-height:80px;
-    margin-top:10px;
+.left h3 {
+
+    color: #bdbdc7;
+    font-size: 55px;
+    font-weight: 300;
 
 }
 
-.line{
+.left h1 {
 
-    width:140px;
-    height:5px;
-    background:#f3b61f;
-    margin:35px 0;
+    font-size: 70px;
+    line-height: 80px;
+    margin-top: 10px;
 
 }
 
-.left p{
+.line {
 
-    color:#bcbcc5;
-    line-height:30px;
+    width: 140px;
+    height: 5px;
+    background: #f3b61f;
+    margin: 35px 0;
+
+}
+
+.left p {
+
+    color: #bcbcc5;
+    line-height: 30px;
 
 }
 
@@ -125,31 +125,31 @@ HERO
 CENTER IMAGE
 ==========================*/
 
-.middle{
+.middle {
 
-    width:38%;
-    display:flex;
-    justify-content:center;
-    position:relative;
-
-}
-
-.circle{
-
-    width:470px;
-    height:470px;
-    background:#393947;
-    border-radius:50%;
-    
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 
 }
 
-.middle img{
+.circle {
 
-    position:relative;
-    bottom:0;
-    width:420px;
-    
+    width: 470px;
+    height: 470px;
+    background: #393947;
+    border-radius: 50%;
+
+
+}
+
+.middle img {
+
+    position: relative;
+    bottom: 0;
+    width: 420px;
+
 
 }
 
@@ -157,71 +157,71 @@ CENTER IMAGE
 RIGHT
 ==========================*/
 
-.right{
+.right {
 
-    width:28%;
-
-}
-
-.right span{
-
-    color:#bcbcc4;
-    letter-spacing:2px;
+    width: 28%;
 
 }
 
-.right h2{
+.right span {
 
-    font-size:32px;
-    line-height:48px;
-    margin:18px 0;
-
-}
-
-.right a{
-
-    color:#f3b61f;
-    font-weight:600;
+    color: #bcbcc4;
+    letter-spacing: 2px;
 
 }
 
-.right a i{
+.right h2 {
 
-    margin-left:10px;
-
-}
-
-.social{
-
-    display:flex;
-    gap:18px;
-    margin-top:40px;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 18px 0;
 
 }
 
-.social i{
+.right a {
 
-    width:42px;
-    height:42px;
-
-    border-radius:50%;
-    background:#393947;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    color:#f3b61f;
-
-    transition:.3s;
-    cursor:pointer;
+    color: #f3b61f;
+    font-weight: 600;
 
 }
 
-.social i:hover{
+.right a i {
 
-    background:#f3b61f;
-    color:#222;
+    margin-left: 10px;
+
+}
+
+.social {
+
+    display: flex;
+    gap: 18px;
+    margin-top: 40px;
+
+}
+
+.social i {
+
+    width: 42px;
+    height: 42px;
+
+    border-radius: 50%;
+    background: #393947;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #f3b61f;
+
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.social i:hover {
+
+    background: #f3b61f;
+    color: #222;
 
 }
 
@@ -229,87 +229,109 @@ RIGHT
 BRANDS
 ==========================*/
 
-.brands{
+.brands {
 
-    width:86%;
-    margin:auto;
+    width: 86%;
+    margin: 149px;
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 25px;
+    margin-top: 40px;
+}
 
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:25px;
+.brand {
 
-    margin-top:40px;
+    background: #3a3a47;
+    padding: 3px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ddd;
+    height: 55px;
+    width: 200px;
 
 }
 
-.brand{
+.logoImgMeta {
+    margin: -9px;
+    padding: 4px;
+    height: 39px;
+    width: 45px;
+}
 
-    background:#3a3a47;
-    padding:28px;
+.logoImgGoogle {
+    margin: -30px;
+    padding: 4px;
+    height: 111px;
+}
 
-    text-align:center;
+.logoImgLinkedn {
+    margin: -9px;
+    padding: 7px;
+    height: 40px;
+    width: 43px;
+}
 
-    font-size:30px;
-    font-weight:600;
-
-    color:#ddd;
-
+.logoImgSlack {
+    margin: -9px;
+    padding: 4px;
+    height: 39px;
 }
 
 /*==========================
 SERVICES
 ==========================*/
 
-.services{
+.services {
 
-    width:86%;
-    margin:100px auto;
+    width: 86%;
+    margin: 100px auto;
 
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-
-}
-
-.services-left{
-
-    width:40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 
 }
 
-.services-left h2{
+.services-left {
 
-    font-size:52px;
-    line-height:65px;
-
-}
-
-.services-left p{
-
-    color:#b8b8c1;
-    line-height:30px;
-    margin:35px 0;
+    width: 40%;
 
 }
 
-.numbers{
+.services-left h2 {
 
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:35px;
-
-}
-
-.numbers h3{
-
-    color:#f3b61f;
-    font-size:38px;
+    font-size: 52px;
+    line-height: 65px;
 
 }
 
-.numbers span{
+.services-left p {
 
-    color:#a8a8b2;
+    color: #b8b8c1;
+    line-height: 30px;
+    margin: 35px 0;
+
+}
+
+.numbers {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+
+}
+
+.numbers h3 {
+
+    color: #f3b61f;
+    font-size: 38px;
+
+}
+
+.numbers span {
+
+    color: #a8a8b2;
 
 }
 
@@ -317,57 +339,57 @@ SERVICES
 RIGHT SERVICES
 ==========================*/
 
-.services-right{
+.services-right {
 
-    width:48%;
-
-}
-
-.service{
-
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-
-    padding:22px 0;
-
-    border-bottom:1px solid #474757;
+    width: 48%;
 
 }
 
-.service img{
+.service {
 
-    width:120px;
-    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    object-fit:cover;
+    padding: 22px 0;
 
-}
-
-.service div{
-
-    flex:1;
-    margin-left:25px;
+    border-bottom: 1px solid #474757;
 
 }
 
-.service h3{
+.service img {
 
-    font-size:30px;
+    width: 120px;
+    height: 80px;
 
-}
-
-.service p{
-
-    color:#9b9ba5;
-    margin-top:8px;
+    object-fit: cover;
 
 }
 
-.service i{
+.service div {
 
-    color:#f3b61f;
-    font-size:24px;
+    flex: 1;
+    margin-left: 25px;
+
+}
+
+.service h3 {
+
+    font-size: 30px;
+
+}
+
+.service p {
+
+    color: #9b9ba5;
+    margin-top: 8px;
+
+}
+
+.service i {
+
+    color: #f3b61f;
+    font-size: 24px;
 
 }
 
@@ -375,7 +397,7 @@ RIGHT SERVICES
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .card {
